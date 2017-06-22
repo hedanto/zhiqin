@@ -7,6 +7,7 @@ body{
     margin: 20px;
     min-height: 500px;
     box-shadow: 5px 5px 20px #0003;
+    -webkit-box-shadow: 5px 5px 20px #0003;
     border-radius: 8px;
     text-align: center;
 }

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, height=device-height">
+    <title>一个真实的故事</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/bootstrap-theme.min.css">
+    <link rel="stylesheet" href="css/typing.css">
+    <link rel="stylesheet" href="css/index.css">
+    <script src="js/typing.min.js"></script>
+</head>
+<body>
+<div class="container-fluid">
+    <div class="card">
+        <span class="card-title">一个真实的故事</span>
+        <div style='display:none;'>
+            <div id="source" class="card-content">
+                <p class="lead">
+                    这是个真实的故事，一个男生想约一个女生去看电影，他想以不一样的方式发出邀请，经过一番思所，他给女孩发了个链接......<br/>
+                        志琴，周末有兴趣去看《变形金刚5》不？
+                </p>
+                <small class="text-muted pull-right">—— 来自某某人</small>
+            </div>
+        </div>
+        <div class="card-content">
+            <span id="output"></span>
+        </div>
+    </div>
+</div>
+
+<script type="text/javascript">
+    var typing = new Typing({
+        source: document.getElementById('source'),
+        output: document.getElementById('output'),
+        delay: 40
+    });
+    typing.start();
+</script>
+
+</body>
+</html>

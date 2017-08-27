@@ -155,7 +155,7 @@ $poker.addEventListener('click', function () {
   deck.poker()
   setTimeout(function(){
       $contentInfo.setAttribute("class", ""); 
-  }, 4000);
+  }, 3500);
 })
 
 deck.mount($container)
